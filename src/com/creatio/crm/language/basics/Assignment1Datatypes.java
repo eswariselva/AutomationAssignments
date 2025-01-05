@@ -4,17 +4,22 @@ public class Assignment1Datatypes {
 
 	public static void main(String[] args) {
 	
-		// Float datatype can store upto 6 /7 decimal digits
+		/*Float datatype can store upto 6 /7 decimal digits 
+		 * It is a primitive data type
+		 */
 		
 		float temp=25.5f;
 		System.out.println(temp);
 		
-		//Boolean datatype stores values as either true or false
+		/**Boolean datatype stores values as either true or false
+		 * It is a primitive datatype
+		 * @param string arguments
+		 * @return boolean values either 0 or 1
+		 */
 		
 		boolean orderplaced=true;
-		boolean ordernotplaced=false;
-		System.out.println(orderplaced);
-		System.out.println(ordernotplaced);
+	    System.out.println(orderplaced);
+	
 		
 		//int datatype stores -10 digits to +10 digits
 		
@@ -42,9 +47,8 @@ public class Assignment1Datatypes {
 		//Boolean datatype stores values as either true or false
 		
 		boolean married=true;
-		boolean unmarried=false;
 		System.out.println(married);
-		System.out.println(unmarried);
+	
 				
 		//String datatype stores collection of characters
 				
@@ -61,9 +65,9 @@ public class Assignment1Datatypes {
 		short year=2023;
 		System.out.println(year);
 		
-		//int datatype stores -10 digits to +10 digits
+		//String datatype stores collection of characters
 		
-		int followers=1000000;
+		String followers="1,000,000";
 		System.out.println(followers);
 		
 		// Float datatype can store upto 6 /7 decimal digits
