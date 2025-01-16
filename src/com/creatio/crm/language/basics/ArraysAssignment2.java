@@ -6,6 +6,8 @@ public class ArraysAssignment2 {
 		
 		
 		String [] [] [] products = new String [2] [4] [5];
+		String [] mainCategories = {"Grocery","Electronics"};
+		String [] subCategories = {"Beverages","Snacks","Dairy Products","Produce"};
 		// code for main category:Groceries
 		
 		//code for Beverages
